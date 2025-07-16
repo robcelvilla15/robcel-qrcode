@@ -30,16 +30,7 @@
               discord
             </a>.
           </p>
-          <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="contribute"
-            >
-              issue board
-            </a>.
-          </p>
+         
           <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
           <div class="text-xs-right">
             <em><small>&mdash; John Leider</small></em>
@@ -53,13 +44,7 @@
             Nuxt Documentation
           </a>
           <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt GitHub
-          </a>
+          
         </v-card-text>
         <v-card-actions>
           <v-spacer />

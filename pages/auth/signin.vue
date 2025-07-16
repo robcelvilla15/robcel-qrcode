@@ -16,10 +16,11 @@
           rounded
           prepend-inner-icon="mdi-lock"
           type="password"
+          
         ></v-text-field>
         <v-btn rounded color="primary" block>Login</v-btn>
         <div class="hr-sect my-5">OR</div>
-        <v-btn color="error" class="text-capitalize" rounded block>
+        <v-btn color="error" @click = "signinwithGoogle()" class="text-capitalize" rounded block>
           <v-icon left>mdi-google</v-icon> Sign In with google
         </v-btn>
       </v-form>
@@ -30,5 +31,11 @@
 <script>
 export default {
   layout: "auth",
-};
+  middleware: "guest",
+  methods:{
+    signinwithGoogle() { 
+      this.$auth.loginWith('google')
+    }
+  }
+}
 </script>
